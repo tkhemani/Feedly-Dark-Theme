@@ -1,6 +1,4 @@
 @namespace url(http://www.w3.org/1999/xhtml);
-@-moz-document domain('feedly.com'), url-prefix('https://feedly.com') {
-   
 body {
     background: none repeat scroll 0% 0% #1a1a1a !important;
 }
@@ -222,6 +220,7 @@ h6 {
 }
 #feedlyTabs {
     background-color: #1a1a1a !important;
+    overflow: hidden !important;
 }
 #feedlyTabsHolder {
     color: #999999 !important;
@@ -350,6 +349,8 @@ div .wikibar {
 }
 #feedlyTabsHolder:hover .icon {
     opacity: 1 !important;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
 }
 .twitterTimeLine {
     background-color: #1a1a1a !important;
@@ -717,7 +718,7 @@ color: #999999 !important;
 }
 
 ::-webkit-scrollbar-track-piece {
-    background-color: black !important;
+    background-color: #1a1a1a !important;
     border-radius: 3px;
 }
 
@@ -777,6 +778,7 @@ display: none !important;
 
 .dark-aware {
  height: 100% !important; 
+ overflow: hidden;
 }
 
 #addContentPlaceholderFX{
@@ -792,6 +794,9 @@ display: none !important;
 }
 
 #searchBarFX {
-    background-color: #1a1a1a;
+    background-color: #1a1a1a !important;  
 }
+
+.visitWebsiteButton,.headerInfo,.headerInfo-article,.entryholder,.u100Frame.selectedEntry{
+   background-color: #1a1a1a !important;   
 }
