@@ -2,6 +2,15 @@
 body {
     background: none repeat scroll 0% 0% #1a1a1a !important;
 }
+
+.emptyAware{
+   color: rgba(255, 255, 255, 0.36) !important; 
+  }
+  
+  #feedlyTabs .label{
+    font-weight: 400 !important;
+  }
+  
 #feedlyFrame,
 #feedlyPage {
     width: auto !important;
@@ -162,8 +171,8 @@ h6 {
 .action {
     color: #5b5d59 !important;
 }
-.nonEmpty {
-    color: #cccccc !important;
+.nonEmpty, .lessThanAnHour, .fx .entry.u0 .ago {
+    color: rgba(255, 255, 255, 0.36) !important;
 }
 .viewerIcon {
     background-color: #1a1a1a !important;
@@ -372,9 +381,7 @@ div.object {
 .message span:nth-of-type(2) {
     color: #527b08 !important;
 }
-.lessThanAnHour {
-    color: #999999 !important;
-}
+
 #sideArea a {
     color: #5b5d59 !important;
 }
@@ -659,11 +666,8 @@ img[src$="ab-tag.v2.png"] {
     background-image: url(http://i1359.photobucket.com/albums/q793/akerd/icon-action-overview-1002x-hover-24_zpsdd71df57.png) !important;
 }
 
-.emptyAware {
- color: #5b5d59 !important;   
-}
 .hot {
-color: #999999 !important;
+color: rgba(255, 255, 255, 0.36) !important;
 }
 
 #fixedProfile {  background: #1a1a1a !important; }  
@@ -675,6 +679,11 @@ color: #999999 !important;
 
 .fx .form textarea,.fx .form input:not([type]),.fx .form [type='text'],.fx .form [type='email'],.fx .form [type='search'],.fx .form [type='password'],.fx .form [type='date'],.fx .form [type='datetime-local'],.fx .form [type='tel'],.fx .form [type='time'],.fx .form [type='url'],.fx .form [type='number'],.fx .form .public-DraftEditor-content,.fx .form .public-DraftEditorPlaceholder-root {
  background: #1a1a1a !important;   
+}
+
+.fx a {    
+    outline: 0;
+    text-decoration: underline;
 }
 
 .u100Frame.selectedEntry {
@@ -699,10 +708,6 @@ color: #999999 !important;
 
 .pro {
  display: none !important;   
-}
-
-.title{
- color: #757575 !important;   
 }
 
 .summary{
@@ -800,3 +805,30 @@ display: none !important;
 .visitWebsiteButton,.headerInfo,.headerInfo-article,.entryholder,.u100Frame.selectedEntry{
    background-color: #1a1a1a !important;   
 }
+
+
+
+  h1, h2, h3, h4, h5, h6 {
+    color: rgba(255, 255, 255, 0.36) !important;
+    font-weight: 100 !important;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.36) !important;
+}
+
+.title {
+   color: rgba(255, 255, 255, 0.46)!important;
+  }
+
+  .fx .entry .engagement {
+   color: rgba(255, 255, 255, 0.36)!important;
+  }
+
+  #feedlyTabsHolder div.simpleUnreadCount {
+      color: rgba(255, 255, 255, 0.36)!important;
+  }
+
+  .summary{
+      color: rgba(255, 255, 255, 0.36)!important;
+  }
