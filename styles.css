@@ -880,3 +880,53 @@ a, a * {cursor: url("data:image/x-icon;base64,AAACAAEAICAAAAUAAQCoEAAAFgAAACgAAA
 .quickGoto .verySimpleUnreadCount {
  color: rgba(255, 255, 255, 0.46) !important   
 }
+
+.search-list {
+ background: #1a1a1a !important;   
+}
+
+
+.topic-list{
+ background: #1a1a1a !important;   
+}
+
+.fx .tabs>.item.active,.fx .board-tag:hover .tabs>.item.delete-tag {
+    border-bottom: 2px solid rgba(255, 255, 255, 0.36) !important;
+    color: #2bb24c;
+    text-decoration: none;
+}
+
+.fx .follow.small,.fx .join.small {
+    color: rgba(255, 255, 255, 0.36) !important;
+    border: 1px solid rgba(255, 255, 255, 0.36) !important;
+    background-color: transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
+    font-weight: 700;
+    width: 84px
+}
+
+.fx .form textarea:focus,.fx .form input:focus:not([type]),.fx .form [type='text']:focus,.fx .form [type='email']:focus,.fx .form [type='search']:focus,.fx .form [type='password']:focus,.fx .form [type='date']:focus,.fx .form [type='datetime-local']:focus,.fx .form [type='tel']:focus,.fx .form [type='time']:focus,.fx .form [type='url']:focus,.fx .form [type='number']:focus,.fx .form .public-DraftEditor-content:focus,.fx .form .public-DraftEditorPlaceholder-root:focus {
+    background: #fff;
+    border-color: rgba(255, 255, 255, 0.36) !important;
+    box-shadow: 0 0 0 0 rgba(34,36,38,0.35) inset;
+}
+
+.popover{
+    background: #1a1a1a !important;   
+}
+
+.fx .button.secondary.accent,.fx button.secondary.accent,.fx-button.secondary.accent {
+    border-color: rgba(255, 255, 255, 0.36) !important;
+    
+    color: rgba(255, 255, 255, 0.36) !important;
+    
+}
+
+.fx .button.tertiary.accent:hover,.fx button.tertiary.accent:hover,.fx-button.tertiary.accent:hover {
+    color: #686868 !important;
+}
+
+.fx .button.tertiary.accent,.fx button.tertiary.accent,.fx-button.tertiary.accent {
+    color: #686868 !important;
+}
