@@ -855,3 +855,28 @@ a, a * {cursor: url("data:image/x-icon;base64,AAACAAEAICAAAAUAAQCoEAAAFgAAACgAAA
     color: #fff !important;
     background: #FF9900 !important;
 }
+
+.quickGoto .entry{
+    border: #1a1a1a;
+}
+
+.quickGoto .selected {
+  border: 2px solid rgba(255, 255, 255, 0.1) !important  
+}
+
+.quickGoto input.textEntry{
+ border-bottom: 2px solid rgba(255, 255, 255, 0.1) !important;   
+}
+
+.fx .button.secondary:hover,.fx button.secondary:hover,.fx-button.secondary:hover {
+    color: #636363;
+    border: 1px solid #1a1a1a !important;  
+}
+
+.quickGoto {
+ color: rgba(255, 255, 255, 0.46) !important   
+}
+
+.quickGoto .verySimpleUnreadCount {
+ color: rgba(255, 255, 255, 0.46) !important   
+}
